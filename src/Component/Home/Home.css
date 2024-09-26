@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.col2 ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 10px;
+}
+.nav-link{
+   color:  hsl(192, 76%, 59%);
+}
+.col1{
+   color: hsl(192, 76%, 59%);
+}
+.container{
+    background-color: black;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+.card{
+    border: 5px solid hsl(192, 76%, 59%);
+    text-align: center;
+    border-radius: 20px;
+}
+.col{
+    width: 25%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color:hsl(192, 76%, 59%);
+}
+.imgs{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+.btn button{
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:hsl(192, 76%, 59%);
+}
+.filter{
+    color: black;
+    background-color:hsl(192, 76%, 59%);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn button:hover,.filter:hover{
+    background-color: black;
+    color: white
+}
+a {
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.red{
+    color:red;
+    cursor: pointer;
+}
+.black{
+    color: black;
+    cursor: pointer;
+}
+.heart{
+    display: flex;
+    justify-content:right;
+    margin: 5px;
+}
+.col2{
+    color: hsl(192, 76%, 59%);
+    cursor: pointer;
+}
+
+.lists li:hover{
+    color: white;   
+}
+.crt{
+    display: flex;
+    justify-content: right;
+}
+.crt button{
+    cursor: pointer;
+    border: 1px solid black;
+    margin:10px;
+    padding: 2px;
+}
+.crt button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+.c-row{
+    display: flex;
+    justify-content: space-around;
+}
